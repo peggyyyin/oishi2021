@@ -11,31 +11,32 @@ format:
 <!-- Replication reports should all use this template to standardize reporting across projects.  These reports will be public supplementary materials that accompany the summary report(s) of the aggregate results. -->
 
 ## Introduction
-Oishi et al. (2021) proposed that psychological richness—a life filled with variety, interesting experiences, and perspective change (both positive and negative)—is a distinct component of a good life, separate from happiness and meaning. The work directly connects to my research interest in the psychology of self-concept redefinition. I chose the figure–ground illusion study because it demonstrates that psychological richness can result from individuals recognizing multiple interpretations of a simple images in a short amount of time. Because my broader interests concern aesthetic reframing, and this experiment captures that process at a basic perceptual level. By showing that ambiguous visual stimuli can evoke a sense of richness without altering happiness or meaning, the study provides a minimal yet powerful model of how reinterpretation can contribute to well-being. 
+The field of psychology has long studied and defined a good life through two lenses: happiness and meaning. Oishi et al. (2021) proposed that psychological richness—a life filled with variety, interesting experiences, and perspective change (both positive and negative)—is a distinct component of a good life, separate from happiness and meaning. Across global studies, they find that psychological richness is a distinct and desirable aspect of well-being, with many people saying they would choose a psychologically rich life even at the expense of happiness or meaning. 
 
-The stimuli will be four figure-ground illusions where two-thirds of the participants see a figure-ground illusion (where both the foreground and background can be focused on, and a different image is produced depending on the focus), and the other one-third see altered images where the background image is disrupted, so that only the foreground focus will produce an image. The procedure will require participants to view and describe each of the four drawings, then self-report their moods and aesthetic evaluations of the image. One-third of the participants viewing the figure-ground images will be further prompted with the question “What else do you see?" Psychological richness will then be measured based on the mean of 11 items from the Psychological Richess Questionnaire (interesting, boring[r], intriguing, psychologically rich, complex, fresh, unique, surprised, unusual, typical[r], simple[r]) on a 1–5 point scale. Positive affect will be measured as the mean of 6 items from the SPANE (Diener et al., 2010): positive, good, pleasant, happy, joyful, content, on a 1–5 point scale. The challenges will be making sure I am replicating the study correctly, because the original study was split into two parts where participants were split in half, whereas my replication combines the two studies into one study where participants are divided in thirds. Moreover, I will need to email the authors for 3/4 of the stimuli used.
+Just like how some experiences we experience as happier or more meaningful than others, then, there are some experiences that we might experience as more psychologically rich. The study I chose to replicate was one that sought to determine what makes a particular experience psychologically rich compared to another in the visual domain. In this study, participants are shown four images in a row. One set of images contained visual illusions. The authors hypothesized that more complex visual stimuli, such as an optical illusion, would be more likely to induce an experience of psychological richness compared to edited versions of the same images that are not illusions.
 
 Replication Repository: [GitHub](https://github.com/peggyyyin/oishi2021)
 
 Original Paper: [Paper](https://github.com/peggyyyin/oishi2021/tree/main/original_paper)
 
+Preregistration: [Prereg](https://osf.io/9fztu/overview)
+
+Paradigm: [Paradigm](https://stanforduniversity.qualtrics.com/jfe/form/SV_8va5U2fvgHxvHng)
+
 ## Methods
+I administered the experiment using a Qualtrics form to collect responses. Half of the participants see a set of figure-ground illusions (where both the foreground and background can be focused on, and a different image is produced depending on the focus), and the other half see the same images, but edited such that they are no longer illusions. The procedure will require participants to view and describe each of the four drawings, then self-report their moods and aesthetic evaluations of the image. Psychological richness will then be measured based on the mean of 11 items from the Psychological Richess Questionnaire (interesting, boring[r], intriguing, psychologically rich, complex, fresh, unique, surprised, unusual, typical[r], simple[r]) on a 1–5 point scale. Positive affect will be measured as the mean of 6 items from the SPANE (Diener et al., 2010): positive, good, pleasant, happy, joyful, content, on a 1–5 point scale. 
 
 ### Power Analysis
-
 Our sample size provides the statistical power of .85 with the expected effect size of .50.
 
 ### Planned Sample
-
-The planned sample size is 150, matching the original study.
+The planned sample size is 152, matching the original study. (N.B.: I originally collected 150 on Prolific, but was able to get 153 participants because I believe that some participants started the survey and finished it later, after 150 participants had already finished it, based on timestamps, which allowed me to hit 152 with one exclusion.)
 
 ### Materials
-
-All figures are attached in the figures folder.
+The stimuli and the original questionnaire were obtained from Dr. Oishi and are attached in the figures folder: [Stimuli](https://github.com/peggyyyin/oishi2021/tree/main/stims). The paradigm is linked here: [Paradigm](https://stanforduniversity.qualtrics.com/jfe/form/SV_8va5U2fvgHxvHng).
 
 ### Procedure	
-
-I am replicating experiment 3, where the visual materials for the control condition were modified from the ones used in Experiments 1 and 2 to further minimize the differences from the figure-ground drawings.
+Following the protocol from the original experiment, I showed participants one set of four images (either the control images or the illusion images). Participants viewed these images one at a time, describing what they saw in them in an open-ended response. After viewing four images, participants filled out the following scales:
 
 "The current moods were measured using the 12-item Scale of Positive and Negative Experience (SPANE; Diener et al., 2010) on a 5-point scale (1 = not at all, 5 = extremely). The positive mood scale consists of positive, good, pleasant, happy, joyful, and contented at this moment (α = .90). The negative mood scale consists of negative, bad, unpleasant, sad, afraid, and angry at this moment (α = .85).
 
@@ -44,40 +45,33 @@ The psychological richness was measured by 11 items on a 5-point scale (1 = not 
 We also measured enjoyment, as Silva and colleagues’ work (e.g., Silvia, 2005) suggests that enjoyment is independent of interest. The enjoyment scale consisted of the four items on a 5-point scale (1 = not at all, 5 = extremely): “I enjoyed them a lot,” “I liked them a lot,” “They were fun,” and “They were pleasing” (α = .88)."
 
 ### Analysis Plan
-
-I plan to analyze the differences in Psychological Richness and Enjoyment in the Control versus Figure-Ground Conditions, and the differences in positive and negative affect in figure-ground condition.
+I plan to analyze the differences in Psychological Richness and Enjoyment in the Control versus Figure-Ground Conditions, and the differences in positive and negative affect in figure-ground condition. The key statistical test used is the unpaired, two-tailed t test comparing the experimental and control groups. The hypotheses follow the original study: that psychologically rich experiences are not necessarily more enjoyable, positive, or negative.
 
 ### Differences from Original Study
-
-The participants in the original study were 150 at a large university in the U.S. who received partial course credit toward an introductory psychology class. My sample pulls from Prolific and specifies people in the US more generally.
+The participants in the original study were 152 undergradutes at a large university in the U.S. who received partial course credit toward an introductory psychology class. My sample pulls from Prolific and specifies people in the US more generally between the ages of 18-30 (I chose this age range because I wanted to capture the age of undergraduate populations that also might be slightly older, as in the case of community colleges). 
 
 ### Methods Addendum (Post Data Collection)
-
-You can comment this section out prior to final report with data collection.
-
 #### Actual Sample
-  Sample size, demographics, data exclusions based on rules spelled out in analysis plan
+  I got 153 participants. Because some Prolific participants seemed to start the study, then finish it later after the 150 had already been collected, I took the first 152 finished responses from when I ran the study on Prolific (excluding 1 based on this cutoff.)
 
 #### Differences from pre-data collection methods plan
-  Any differences from what was described as the original plan, or “none”.
-
+  None (checked gender balance; the race/ethnicity balance and age balance for the original study was not reported).
 
 ## Results
-
+None of my findings were significant, meaning that while the participants across groups did not differ in enjoyment (as predicted), they also did not differ in psychological richness. Because three of the four analyses were meant to support the hypothesis that a psychological richness experience differs from an enjoyable, or valenced experience, however, my results do not help to explain what psychological richness is and isn't.
 
 ### Data preparation
 
 Data preparation following the analysis plan.
 	
 ```{r include=F}
-### Data Preparation
-
 #### Load Relevant Libraries and Functions
 pkgs <- c("tidyverse", "janitor", "stringr", "psych", "ggpubr", "patchwork")
 to_install <- pkgs[!pkgs %in% installed.packages()[, "Package"]]
 if (length(to_install)) install.packages(to_install, quiet = TRUE)
 invisible(lapply(pkgs, library, character.only = TRUE))
 
+### Data Preparation
 DEBUG <- TRUE
 dbg <- function(...){ if (isTRUE(DEBUG)) message(sprintf(...)) }
 
@@ -88,7 +82,7 @@ vhead <- function(x, n=6) paste(utils::head(x, n), collapse=" | ")
 se <- function(x) sd(x, na.rm = TRUE) / sqrt(sum(!is.na(x)))
 
 #### Import data
-input_path <- "../data/pilot.csv"
+input_path <- "../data/FINAL.csv"
 output_dir <- "."
 
 #### Data exclusion / filtering
@@ -258,6 +252,244 @@ ggsave("../data/bars_psychrich_enjoyment.png", plot_a, width = 8, height = 5, dp
 print(plot_b)
 ggsave("../data/bars_spane_affect.png", plot_b, width = 8, height = 5, dpi = 300)
 
+```
+
+```{r include=T}
+# ---- Inferential tests: Figure–Ground vs Control ----
+
+dat_fg <- dat %>%
+  filter(condition %in% c("Control", "FigureGround")) %>%
+  mutate(
+    condition = factor(condition, levels = c("Control", "FigureGround"))
+  )
+
+# Helper: Cohen's d for between-subjects (FG − Control)
+cohen_d <- function(x, g) {
+  g <- droplevels(factor(g))
+  x1 <- x[g == levels(g)[1]]  # Control
+  x2 <- x[g == levels(g)[2]]  # FigureGround
+  n1 <- sum(!is.na(x1)); n2 <- sum(!is.na(x2))
+  m1 <- mean(x1, na.rm = TRUE); m2 <- mean(x2, na.rm = TRUE)
+  s1 <- var(x1, na.rm = TRUE);  s2 <- var(x2, na.rm = TRUE)
+  sp <- sqrt(((n1 - 1) * s1 + (n2 - 1) * s2) / (n1 + n2 - 2))
+  (m2 - m1) / sp  # FG − Control
+}
+
+# Psychological richness
+tt_pr  <- t.test(psych_richness ~ condition, data = dat_fg, var.equal = TRUE)
+d_pr   <- cohen_d(dat_fg$psych_richness, dat_fg$condition)
+
+# Enjoyment
+tt_enj <- t.test(enjoyment ~ condition, data = dat_fg, var.equal = TRUE)
+d_enj  <- cohen_d(dat_fg$enjoyment, dat_fg$condition)
+
+# Positive affect (SPANE+)
+tt_pa  <- t.test(positive_affect ~ condition, data = dat_fg, var.equal = TRUE)
+d_pa   <- cohen_d(dat_fg$positive_affect, dat_fg$condition)
+
+# Negative affect (SPANE−)
+tt_na  <- t.test(negative_affect ~ condition, data = dat_fg, var.equal = TRUE)
+d_na   <- cohen_d(dat_fg$negative_affect, dat_fg$condition)
+
+if (DEBUG) {
+  dbg("Psych richness: t=%.2f (df=%.0f), p=%.3f, d=%.2f",
+      tt_pr$statistic, tt_pr$parameter, tt_pr$p.value, d_pr)
+  dbg("Enjoyment:      t=%.2f (df=%.0f), p=%.3f, d=%.2f",
+      tt_enj$statistic, tt_enj$parameter, tt_enj$p.value, d_enj)
+  dbg("SPANE+:         t=%.2f (df=%.0f), p=%.3f, d=%.2f",
+      tt_pa$statistic, tt_pa$parameter, tt_pa$p.value, d_pa)
+  dbg("SPANE−:         t=%.2f (df=%.0f), p=%.3f, d=%.2f",
+      tt_na$statistic, tt_na$parameter, tt_na$p.value, d_na)
+}
+
+```
+
+Side-by-side of psychological richness and enjoyment:
+![fig1](../data/fig1.png)
+
+Side-by-side of SPANE:
+![fig2](../data/fig2.png)
+
+### Exploratory analyses
+I wanted to see if what the results would be if I just used the item with the highest factor loading in the psychological richness scale:
+
+```{r include=T}
+index_interesting <- which(str_detect(question_row, fixed("interesting", ignore_case = TRUE)))
+if(length(index_interesting) == 0) {
+stop("Could not find the question")
+}
+interesting_col <- cn[index_interesting]
+cat("Column for 'The drawings were very interesting':", interesting_col, "\n")
+
+# ---- Assign condition (control vs figure-ground) ----
+has_ctrl <- if ("drawing1_response" %in% names(dat)) filled(dat$drawing1_response) else FALSE
+has_alt  <- if ("drawing1alt_response" %in% names(dat)) filled(dat$drawing1alt_response) else FALSE
+
+dat_filtered <- dat %>% filter(!is.na(condition))
+dat_filtered <- dat_filtered %>% mutate(condition = factor(condition, levels = c("Control", "FigureGround")))
+
+table(dat_filtered$condition)
+
+t_test_interesting <- t.test(dat_filtered[[interesting_col]] ~ condition, data = dat_filtered, var.equal = TRUE, alternative = "two.sided") 
+print(t_test_interesting)
+
+d_interesting  <- cohen_d(dat_fg[[interesting_col]], dat_fg$condition)
+print(d_interesting)
+```
+
+I was interested in seeing if the results change if I exclude participants who finished the task in under three minutes:
+
+```{r include=T}
+pkgs <- c("tidyverse", "janitor", "stringr", "psych", "ggpubr", "patchwork")
+to_install <- pkgs[!pkgs %in% installed.packages()[, "Package"]]
+if (length(to_install)) install.packages(to_install, quiet = TRUE)
+invisible(lapply(pkgs, library, character.only = TRUE))
+
+### Data Preparation
+DEBUG <- TRUE
+dbg <- function(...){ if (isTRUE(DEBUG)) message(sprintf(...)) }
+
+# pretty head for long vectors
+vhead <- function(x, n=6) paste(utils::head(x, n), collapse=" | ")
+
+# standard error
+se <- function(x) sd(x, na.rm = TRUE) / sqrt(sum(!is.na(x)))
+
+#### Import data
+input_path <- "../data/FINAL.csv"
+output_dir <- "."
+
+#### Data exclusion / filtering
+raw <- read.csv(input_path, header = FALSE, stringsAsFactors = FALSE, check.names = FALSE)
+
+# ---- Metadata rows → vectors ----
+label_row    <- as.character(unlist(raw[1, ]))           # e.g., mood_1, ratings_1, ...
+question_row <- tolower(as.character(unlist(raw[2, ])))  # question texts (lowercased)
+
+# ---- Keep only data rows; set headers to labels; clean names ----
+dat <- raw[-c(1:3), , drop = FALSE]
+colnames(dat) <- label_row
+dat <- janitor::clean_names(dat)
+# Now "Duration (in seconds)" should be cleaned to "duration_in_seconds"
+
+#EXPLORING THIS LINE
+dat <- dat %>% 
+  filter(as.numeric(duration_in_seconds) >= 180)
+
+# After clean_names(), get the current column names in order
+cn <- names(dat)
+
+# ---- Use the QUESTION ROW to identify item sets (by index, then map to names) ----
+idx_sp_pos <- str_detect(question_row, "positive|\\bgood\\b|pleasant|happy|joyful|contented")
+idx_sp_neg <- str_detect(question_row, "\\bnegative\\b|\\bbad\\b|unpleasant|\\bsad\\b|afraid|angry")
+
+idx_pr_pos <- str_detect(question_row, "interesting|intriguing|psychologically\\s*rich|complex|fresh|unique|surprised|unusual")
+idx_pr_rev <- str_detect(question_row, "\\bboring\\b|\\btypical\\b|\\bsimple\\b")
+
+idx_enjoy  <- str_detect(question_row, "enjoyed|liked|\\bfun\\b|pleasing")
+
+sp_pos_cols <- cn[idx_sp_pos]
+sp_neg_cols <- cn[idx_sp_neg]
+pr_pos_cols <- cn[idx_pr_pos]
+pr_rev_cols <- cn[idx_pr_rev]
+enjoy_cols  <- cn[idx_enjoy]
+
+# ---- Coerce needed columns to numeric (handles text labels like 'Not at all') ----
+all_needed <- unique(c(sp_pos_cols, sp_neg_cols, pr_pos_cols, pr_rev_cols, enjoy_cols))
+
+# Define mapping from text to numbers
+likert_map <- c(
+  "not at all"  = 1,
+  "slightly"    = 2,
+  "moderately"  = 3,
+  "very much"   = 4,
+  "extremely"   = 5
+)
+
+dat[all_needed] <- lapply(dat[all_needed], function(v) {
+  v <- tolower(trimws(as.character(v)))
+  # convert using dictionary; leave numbers alone
+  num <- dplyr::recode(v, !!!likert_map, .default = NA_real_)
+  suppressWarnings(as.numeric(num))
+})
+
+# ✅ Debug check to ensure conversion worked
+if (exists("DEBUG") && DEBUG) {
+  cat("\n=== CHECK: Likert text → numeric conversion ===\n")
+  test_cols <- head(all_needed, 5)
+  print(dat %>% dplyr::select(any_of(test_cols)) %>% head())
+}
+# ---- Helpers ----
+rev5  <- function(x) ifelse(is.na(x), NA_real_, 6 - as.numeric(x))
+rmean <- function(df) if (is.null(df) || ncol(df) == 0) NA_real_ else rowMeans(df, na.rm = TRUE)
+filled <- function(x) !is.na(x) & x != ""
+
+# ---- Compute scale scores per row ----
+pr_pos_df <- dplyr::select(dat, dplyr::all_of(pr_pos_cols))
+pr_rev_df <- dplyr::select(dat, dplyr::all_of(pr_rev_cols)) %>% dplyr::mutate(dplyr::across(dplyr::everything(), rev5))
+
+dat <- dat %>%
+  mutate(
+    positive_affect = rmean(select(., all_of(sp_pos_cols))),
+    negative_affect = rmean(select(., all_of(sp_neg_cols))),
+    psych_richness  = rmean(dplyr::bind_cols(pr_pos_df, pr_rev_df)),
+    enjoyment       = rmean(select(., all_of(enjoy_cols)))
+  )
+
+# ---- Assign condition (control vs figure-ground) ----
+has_ctrl <- if ("drawing1_response" %in% names(dat)) filled(dat$drawing1_response) else FALSE
+has_alt  <- if ("drawing1alt_response" %in% names(dat)) filled(dat$drawing1alt_response) else FALSE
+
+dat <- dat %>%
+  mutate(
+    condition = dplyr::case_when(
+      has_ctrl ~ "Control",
+      !has_ctrl & has_alt ~ "FigureGround",
+      TRUE ~ NA_character_
+    )
+  )
+
+# ---- Summaries for plotting (mean ± SE) ----
+se <- function(x) sd(x, na.rm = TRUE) / sqrt(sum(!is.na(x)))
+
+sum_long <- dat %>%
+  filter(!is.na(condition)) %>%
+  select(condition, psych_richness, enjoyment, positive_affect, negative_affect) %>%
+  pivot_longer(-condition, names_to = "measure", values_to = "value") %>%
+  group_by(condition, measure) %>%
+  summarize(
+    mean = mean(value, na.rm = TRUE),
+    se   = se(value),
+    .groups = "drop"
+  ) %>%
+  mutate(
+    measure = recode(measure,
+                     psych_richness  = "PsychRich",
+                     enjoyment       = "Enjoyment",
+                     positive_affect = "SPANE+",
+                     negative_affect = "SPANE−")
+  )
+
+se <- function(x) sd(x, na.rm = TRUE) / sqrt(sum(!is.na(x)))
+
+sum_long <- dat %>%
+  filter(!is.na(condition)) %>%
+  select(condition, psych_richness, enjoyment, positive_affect, negative_affect) %>%
+  pivot_longer(-condition, names_to = "measure", values_to = "value") %>%
+  group_by(condition, measure) %>%
+  summarize(
+    mean = mean(value, na.rm = TRUE),
+    se   = se(value),
+    .groups = "drop"
+  ) %>%
+  mutate(
+    measure = recode(measure,
+                     psych_richness  = "PsychRich",
+                     enjoyment       = "Enjoyment",
+                     positive_affect = "SPANE+",
+                     negative_affect = "SPANE−")
+  )
+
 # Long raw values (no summarizing)
 raw_long <- dat %>%
   dplyr::filter(!is.na(condition)) %>%
@@ -278,57 +510,70 @@ raw_long <- dat %>%
 raw_long_counts <- raw_long %>%
   group_by(condition, measure, value) %>%
   summarize(n = n(), .groups = "drop")
-plot_a <- raw_long_counts %>%
-  filter(measure %in% c("PsychRich", "Enjoyment")) %>%
-  ggplot(aes(x = measure, y = value, color = condition, size = n)) +
-  geom_point(
-    position = position_dodge(width = 0.6),
-    alpha = 0.8
-  ) +
-  scale_size_continuous(range = c(2, 8), name = "n") +
-  scale_y_continuous(breaks = 1:5, limits = c(1, 5)) +
-  labs(
-    title = "Figure-Ground and Psych Richness/Enjoyment",
-    x = NULL, y = "Rating (1–5)", color = NULL
-  ) +
-  theme_minimal(base_size = 12)
 
-print(plot_a)
-ggsave("../data/dotsize_psychrich_enjoyment.png", plot_a, width = 8, height = 5, dpi = 300)
+dat_fg <- dat %>%
+  filter(condition %in% c("Control", "FigureGround")) %>%
+  mutate(
+    condition = factor(condition, levels = c("Control", "FigureGround"))
+  )
 
-plot_b <- raw_long_counts %>%
-  filter(measure %in% c("SPANE+","SPANE−")) %>%
-  ggplot(aes(x = measure, y = value, color = condition, size = n)) +
-  geom_point(
-    position = position_dodge(width = 0.6),
-    alpha = 0.8
-  ) +
-  scale_size_continuous(range = c(2, 8), name = "n") +
-  scale_y_continuous(breaks = 1:5, limits = c(1, 5)) +
-  labs(
-    title = "Figure-Ground and Affect (SPANE)",
-    x = NULL, y = "Rating (1–5)", color = NULL
-  ) +
-  theme_minimal(base_size = 12)
+# Helper: Cohen's d for between-subjects (FG − Control)
+cohen_d <- function(x, g) {
+  g <- droplevels(factor(g))
+  x1 <- x[g == levels(g)[1]]  # Control
+  x2 <- x[g == levels(g)[2]]  # FigureGround
+  n1 <- sum(!is.na(x1)); n2 <- sum(!is.na(x2))
+  m1 <- mean(x1, na.rm = TRUE); m2 <- mean(x2, na.rm = TRUE)
+  s1 <- var(x1, na.rm = TRUE);  s2 <- var(x2, na.rm = TRUE)
+  sp <- sqrt(((n1 - 1) * s1 + (n2 - 1) * s2) / (n1 + n2 - 2))
+  (m2 - m1) / sp  # FG − Control
+}
 
-print(plot_b)
-ggsave("../data/dotsize_spane_affect.png", plot_b, width = 8, height = 5, dpi = 300)
+# Psychological richness
+tt_pr  <- t.test(psych_richness ~ condition, data = dat_fg, var.equal = TRUE)
+d_pr   <- cohen_d(dat_fg$psych_richness, dat_fg$condition)
 
+# Enjoyment
+tt_enj <- t.test(enjoyment ~ condition, data = dat_fg, var.equal = TRUE)
+d_enj  <- cohen_d(dat_fg$enjoyment, dat_fg$condition)
 
+# Positive affect (SPANE+)
+tt_pa  <- t.test(positive_affect ~ condition, data = dat_fg, var.equal = TRUE)
+d_pa   <- cohen_d(dat_fg$positive_affect, dat_fg$condition)
+
+# Negative affect (SPANE−)
+tt_na  <- t.test(negative_affect ~ condition, data = dat_fg, var.equal = TRUE)
+d_na   <- cohen_d(dat_fg$negative_affect, dat_fg$condition)
+
+if (DEBUG) {
+  dbg("Psych richness: t=%.2f (df=%.0f), p=%.3f, d=%.2f",
+      tt_pr$statistic, tt_pr$parameter, tt_pr$p.value, d_pr)
+  dbg("Enjoyment:      t=%.2f (df=%.0f), p=%.3f, d=%.2f",
+      tt_enj$statistic, tt_enj$parameter, tt_enj$p.value, d_enj)
+  dbg("SPANE+:         t=%.2f (df=%.0f), p=%.3f, d=%.2f",
+      tt_pa$statistic, tt_pa$parameter, tt_pa$p.value, d_pa)
+  dbg("SPANE−:         t=%.2f (df=%.0f), p=%.3f, d=%.2f",
+      tt_na$statistic, tt_na$parameter, tt_na$p.value, d_na)
+}
 ```
 
-*Side-by-side graph with original graph is ideal here*
-
-### Exploratory analyses
-
-Any follow-up analyses desired (not required).  
-
 ## Discussion
+| Measure                | Original t(150) | Original p | Original d | Replication t(150) | Replication p | Replication d |
+| ---------------------- | --------------- | ---------- | ---------- | ------------------ | ------------- | ------------- |
+| Psychological Richness | 2.35            | .020       | 0.38       | -1.32              | .188          | 0.21          |
+| Enjoyment              | -0.16           | .873       | -0.03      | -1.33              | .187          | 0.21          |
+| SPANE+                 | -2.07           | .040       | -0.34      | -0.47              | .637          | 0.08          |
+| SPANE−                 | 0.44            | .661       | 0.07       | 1.75               | .082          | -0.28         |
+
 
 ### Summary of Replication Attempt
-
-Open the discussion section with a paragraph summarizing the primary result from the confirmatory analysis and the assessment of whether it replicated, partially replicated, or failed to replicate the original result.  
+I failed to replicate the original result. There was no significant difference between participants viewing the psychologically rich stimuli and the participants viewing—the key test result. The larger pattern of results were there to contextualize psychological richness, so without this key finding they say more about the stimuli than about the construct. Enjoyment did not differ between groups, nor did positive affect. Negative affect shows a slight trend, although it is worth noting that in the original study participants in the psychological richness group experienced more positive emotions, whereas participants in my replication experienced more negative emotions.
 
 ### Commentary
+One explanation for the failure to replicate my result is that participants were not giving the task the same amount of time and attention as they did in the original task. The authors did not specify how much time participants spent on the task in the original study, but my study participants averaged around 7 minutes spent on the whole study, which some (10) finishing the entire study in under two minutes, and 30 finishing the study in under three minutes. However, in my exploratory analysis, even excluding those participants did not change the failure to replicate.
 
-Add open-ended commentary (if any) reflecting (a) insights from follow-up exploratory analysis, (b) assessment of the meaning of the replication (or not) - e.g., for a failure to replicate, are the differences between original and present study ones that definitely, plausibly, or are unlikely to have been moderators of the result, and (c) discussion of any objections or challenges raised by the current and original authors about the replication attempt.  None of these need to be long.
+I also looked at whether just assessing how much participants found the images to be "interesting" across the two groups, as previous work on psychological richness has determined that evaluations of interestingness have the highest factor loadings. There was no difference between the two groups on evaluations of interestingness, indicating that perhaps because participants found both sets of stimuli equally interesting, one set of images could not be more psychologically rich than another.
+
+The effect size in the original study was quite small, which could explain the failure to replicate.
+
+In the future, I would be curious to know if this experiment would replicate if there were more generative stimuli used to disambiguate illusions from non-illusions, e.g. using the generative illusion methods developed in the Tenenbaum lab. Generative methods would allow for more fine-grained control on differentiating the complexity of both image sets, as my pilot participants had mentioned that they did not really see the illusion in the illusion data set for some images.
